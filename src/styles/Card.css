@@ -30,10 +30,10 @@
   display: inline-block;
   margin-top: 0.5rem;
   text-decoration: none;
-  color: #003366;
+  color: var(--color-2);
   font-weight: bold;
 }
 
 .card-link:hover {
-  color: #00aced;
+  color: var(--color-3);
 }

@@ -7,7 +7,6 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
-import News from "./pages/News";
 import "./styles/App.css";
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/news" element={<News />} />
         </Routes>
       </main>
       <Footer />

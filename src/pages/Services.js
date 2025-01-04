@@ -5,10 +5,10 @@ const Services = () => {
     <div>
       <h1>Nossos Serviços</h1>
       <ul>
-        <li>Recebimento e encaminhamento de denúncias</li>
-        <li>Aconselhamento familiar</li>
-        <li>Aplicação de medidas protetivas</li>
-        <li>Educação e conscientização comunitária</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
       </ul>
     </div>
   );

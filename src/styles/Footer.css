@@ -1,7 +1,7 @@
 .footer {
   text-align: center;
   padding: 1rem;
-  background-color: #003366;
+  background-color: --var(color-1);
   color: white;
   margin-top: 2rem;
 }
@@ -25,5 +25,5 @@
 }
 
 .social-links a:hover {
-  color: #00aced;
+  color: var(--color-3);
 }

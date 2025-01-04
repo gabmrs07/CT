@@ -1,26 +1,55 @@
+/* Estilo básico do Header */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #003366;
+  background-color: var(--color-1);
   color: white;
 }
 
 .logo a {
+  display: block;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+
+/* Estilo para o botão do menu */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Navegação básica */
+.nav {
+  display: flex;
+  align-items: center;
 }
 
 .nav-links {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
 }
 
 .nav-links li {
-  margin: 0 1rem;
+  margin: 0.5rem 0.3rem;
+  padding: 0.2rem 0.2rem;
+}
+
+.nav-links li:hover {
+  background-color: var(--color-2);
+  border-radius: 0.2rem;
 }
 
 .nav-links a {
@@ -30,5 +59,30 @@
 }
 
 .nav-links a:hover {
-  color: #00aced;
+  color: var(--color-3);
+}
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+  .logo.hide {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block; /* Exibe o botão hambúrguer em telas pequenas */
+    padding: 1rem;
+  }
+
+  .nav {
+    display: none; /* Esconde o menu por padrão */
+    top: 100%;
+    gap: 1rem;
+    background-color: #003366;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav.open {
+    display: flex; /* Exibe o menu quando ativo */
+  }
 }

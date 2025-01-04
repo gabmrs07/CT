@@ -10,12 +10,14 @@ const Team = () => {
       </p>
       <div className="team-container">
         <div className="team-member">
-          <h3>Maria Silva</h3>
+          <h3>Maria</h3>
           <p>Conselheira Tutelar</p>
+          <p>(99) 9 9999-9999</p>
         </div>
         <div className="team-member">
-          <h3>João Oliveira</h3>
+          <h3>João</h3>
           <p>Conselheiro Tutelar</p>
+          <p>(99) 9 9999-9999</p>
         </div>
       </div>
     </div>
