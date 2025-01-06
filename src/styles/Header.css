@@ -11,10 +11,12 @@
 .logo a {
   display: block;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: white;
-  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-shadow: 0.2rem 0.2rem 0.2rem black;
+  padding: 0.5rem 0.8rem;
+  text-align: center;
 }
 
 /* Estilo para o botão do menu */
@@ -40,26 +42,23 @@
   margin: 0;
   padding: 0;
   font-weight: bold;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  gap: 0.5rem;
+  justify-content: center;
 }
 
-.nav-links li {
-  margin: 0.5rem 0.3rem;
-  padding: 0.2rem 0.2rem;
-}
-
-.nav-links li:hover {
+.nav-links a:hover,
+.logo a:hover {
   background-color: var(--color-2);
   border-radius: 0.2rem;
+  color: var(--color-3);
 }
 
 .nav-links a {
+  padding: 0.5rem 0.8rem;
   text-decoration: none;
   color: white;
   transition: color 0.3s;
-}
-
-.nav-links a:hover {
-  color: var(--color-3);
 }
 
 /* Estilos para telas menores */
