@@ -52,10 +52,10 @@ const Services = () => {
         {posts.map((post) => (
           <li key={post.id}>
             <h3>
-              {post.id}: {post.Titulo}
+              {post.id}: {post.titulo}
             </h3>
-            <h2>{post.Data}</h2>
-            <p>{post.Corpo}</p>
+            <h2>{post.date}</h2>
+            <p>{post.corpo}</p>
           </li>
         ))}
       </ul>
